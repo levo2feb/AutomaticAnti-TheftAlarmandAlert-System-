@@ -43,12 +43,12 @@ This is a hardware-software project involving the following components:
 ### 2. Code Upload
 - Open Arduino IDE
 - Paste the project code
-- Select correct board and COM port
+- Select the correct board and COM port
 - Click **Upload**
 
 ### 3. Test System
 - Use Serial Monitor to verify distance readings
-- Place objects at different distances to test LED & buzzer behavior
+- Place objects at different distances to test LED & buzzer behaviour
 
 ## 📈 Output Logic
 
