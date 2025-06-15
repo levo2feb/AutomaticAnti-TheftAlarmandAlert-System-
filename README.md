@@ -41,20 +41,20 @@ This is a hardware-software project involving the following components:
 
 
 ### 🔌 Hardware Setup
-- Ultrasonic Sensor (HC-SR04):
+- **Ultrasonic Sensor (HC-SR04):**
   - VCC → 5V (Arduino)
   - Trig → Pin 2 (Arduino)
   - Echo → Pin 3 (Arduino)
   - GND → GND (Arduino)
-- LED Connections (via 221Ω resistors):
+- **LED Connections (via 221Ω resistors):**
   - Red LED Anode → Pin 4 (Arduino)
   - Yellow LED Anode → Pin 5 (Arduino)
   - Green LED Anode → Pin 6 (Arduino)
   - Cathodes (shorter leg) of all LEDs → GND (Arduino)
-- Buzzer Connection:
+- **Buzzer Connection:**
   - Positive (longer) pin → Pin 7 (Arduino)
   - Negative (shorter) pin → GND (Arduino)
-- Power Supply:
+- **Power Supply:**
   - Arduino powered via USB cable or external 9V adapter
 
 ## Uploading and Running the Code:
@@ -85,6 +85,14 @@ This is a hardware-software project involving the following components:
 - **20–50 cm**: Yellow LED (Caution Zone)
 - **< 20 cm**: Red LED + Buzzer (Danger Zone)
 
+## 📸 Project Model
+Here are images of the completed hardware setup:
+
+**Setup Image 1 -** https://github.com/levo2feb/AutomaticAnti-TheftAlarmandAlert-System-/blob/main/Images/completesetup1.jpg
+
+**Setup Image 2 -** https://github.com/levo2feb/AutomaticAnti-TheftAlarmandAlert-System-/blob/main/Images/completesetup2.jpg
+
+---
 ## 📚 References
 
 - [Arduino Official Site](https://www.arduino.cc/)
